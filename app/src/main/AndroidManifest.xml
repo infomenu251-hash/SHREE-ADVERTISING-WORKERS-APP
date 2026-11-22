@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="false"
+        android:label="SHREE ADVERTISING WORKERS"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:usesCleartextTraffic="false"
+        android:theme="@android:style/Theme.Material.Light.NoActionBar">
+
+        <activity android:name=".SplashActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".AppointmentsActivity" android:exported="false"/>
+        <activity android:name=".AttendanceActivity" android:exported="false"/>
+        <activity android:name=".TodayWorkersActivity" android:exported="false"/>
+        <activity android:name=".DailyWorkActivity" android:exported="false"/>
+        <activity android:name=".DayEndActivity" android:exported="false"/>
+        <activity android:name=".HRContactActivity" android:exported="false"/>
+        <activity android:name=".MainActivity" android:exported="false"/>
+        <activity android:name=".MonthlyReportsActivity" android:exported="false"/>
+        <activity android:name=".MyClientsActivity" android:exported="false"/>
+        <activity android:name=".MyProfileActivity" android:exported="false"/>
+        <activity android:name=".MySalaryActivity" android:exported="false"/>
+        <activity android:name=".NotificationsActivity" android:exported="false"/>
+        <activity android:name=".RegistrationActivity" android:exported="false"/>
+        <activity android:name=".WorkerHomeActivity" android:exported="false"/>
+
+    </application>
+</manifest>

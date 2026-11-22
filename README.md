@@ -1,2 +1,2 @@
 # SHREE-ADVERTISING-WORKERS-APP
-SHREE ADVERTISING Workers Management Android App
+ශ්‍රී ADVERTISING Workers Management Android App
